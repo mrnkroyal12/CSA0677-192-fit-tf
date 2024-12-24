@@ -1,0 +1,21 @@
+FROM python
+WORKDIR /sample
+COPY . .
+CMD ["python","app.py"]
+
+
+docker build -t newapp .
+docker images
+docker run newapp
+10
+--- docker hub----
+ docker login -u dharanijashu
+Password: 
+Login Succeeded
+docker login
+Authenticating with existing credentials...
+Login Succeeded
+ docker tag newapp dharanijashu/myimages
+docker push dhararnijashu/myimages
+
+docker pull dharanijashu/myimages
