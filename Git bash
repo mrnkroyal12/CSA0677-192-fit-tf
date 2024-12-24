@@ -1,0 +1,30 @@
+git bash
+
+mkdir charan
+cd charan
+git init
+touch a.txt
+git status
+git add .
+git status
+c:/windows/notepad as
+git commit -m "commit"
+1st 
+2nd 
+3rd
+pull complete 
+git link
+cd se1
+git checkout -b "s"
+git add .
+git commit -m "updated"
+git push origin"s"
+git add .
+gut commit -m "address"
+git push origin s
+git pull origin main
+
+
+
+
+
